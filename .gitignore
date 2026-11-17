@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env*
+judge-secrets/
+licensed-assets/
+*.npz
+*.npy
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.mp4
+*.sif
+.DS_Store
+._*

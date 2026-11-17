@@ -1,0 +1,56 @@
+{
+  "motionfix": [
+    {
+      "id": "1Yk68qfDdn1kPCkhj27lv-J78Z-3KJ9L_",
+      "path": "amt_motionfix_latest.json"
+    },
+    {
+      "id": "1q6krlcyAWsrqWUZtKqfYEZshAQRf1dVm",
+      "path": "motionfix.pth.tar"
+    },
+    {
+      "id": "1wQEEZdsQO-fn43udtWLqwywUeBvTVJPD",
+      "path": "motionfix_test.pth.tar"
+    },
+    {
+      "id": "1rDO7vH6sd4s5xl-aIHMsdAhS1cLHAdpC",
+      "path": "motionfix_val.pth.tar"
+    },
+    {
+      "id": "1n8iMH2z4yPxUj4g8j3loCG7Ny8JVSz5c",
+      "path": "splits.json"
+    }
+  ],
+  "tmed": [
+    {
+      "id": "19sL2wfV_VCoFaiUcBKD_7YubLt5HOEfx",
+      "path": ".hydra/config.yaml"
+    },
+    {
+      "id": "135ACSra3EO3c31bOgOzuVZKw3wTNmD3s",
+      "path": ".hydra/hydra.yaml"
+    },
+    {
+      "id": "1V6GnOzNcXaybWz_armNMvhzywXjPCScd",
+      "path": "last.ckpt"
+    }
+  ],
+  "smplh": [
+    {
+      "id": "1i1veji517GTbso09Ynn40WLgtEpbx1Lz",
+      "path": "smplh.faces"
+    },
+    {
+      "id": "1s8sOK78Bv9xwtr7FG5Y-D55fPt7nI_Vh",
+      "path": "SMPLH_FEMALE.npz"
+    },
+    {
+      "id": "1bUJoJb--X0oQf_CWYcYk7bKaonyrWtYp",
+      "path": "SMPLH_MALE.npz"
+    },
+    {
+      "id": "1rBRkUNjDLIPh4RLQj0iYDPqY6mGjP3fe",
+      "path": "SMPLH_NEUTRAL.npz"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# Separate from GVHMR and the frozen SuperMimic execution environment.
+# Versions from the validated local editor; verify inference again on ICE.
+setuptools==75.8.0
+numpy==1.26.4
+scipy==1.16.0
+torch==2.9.0
+mujoco==3.17.0
+mink==1.3.0
+daqp==0.10.3
+smplx==0.1.28
+transformers==4.40.2
+huggingface-hub==0.23.5
+diffusers==0.21.2
+hydra-core==1.3.7
+omegaconf==2.3.1
+pytorch-lightning==2.0.9
+torchmetrics==1.2.0
+aitviewer==1.14.2
+imageio==2.37.2
+imageio-ffmpeg==0.6.0
+joblib==1.5.1
+einops==0.8.2
+roma==1.8.0
+opencv-contrib-python-headless==4.11.0.86
+moviepy==1.0.3
+matplotlib==3.10.3
+pandas==2.3.1
+wandb==0.22.2
+loop-rate-limiters==1.2.0
+natsort==8.4.0
+psutil==7.1.1
+rich
+pytest

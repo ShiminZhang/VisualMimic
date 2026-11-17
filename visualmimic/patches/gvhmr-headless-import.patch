@@ -1,0 +1,6 @@
+diff --git a/hmr4d/utils/body_model/body_model.py b/hmr4d/utils/body_model/body_model.py
+--- a/hmr4d/utils/body_model/body_model.py
++++ b/hmr4d/utils/body_model/body_model.py
+@@ -1,2 +1 @@
+-from turtle import forward
+ import numpy as np

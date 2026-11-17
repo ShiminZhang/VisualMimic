@@ -1,0 +1,16 @@
+{
+  "GVHMR": {
+    "url": "https://github.com/zju3dv/GVHMR.git",
+    "commit": "ee960bb6e2ea2d381aa97f08e9b71ef320b624b1",
+    "patch": "dependency-patches/GVHMR.patch"
+  },
+  "motionfix": {
+    "url": "https://github.com/atnikos/motionfix.git",
+    "commit": "e6b437e6a17f26b2066f9c142600146f035da6bf",
+    "patch": "dependency-patches/motionfix.patch"
+  },
+  "GMR": {
+    "url": "https://github.com/YanjieZe/GMR.git",
+    "commit": "25f56db79ac411258b377b6d4ccba0c8ff3372ac"
+  }
+}

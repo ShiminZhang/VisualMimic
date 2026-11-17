@@ -1,0 +1,42 @@
+[
+  {
+    "id": "14yABeNIjUjot2q-9WGqxoOdg0l6_8LW2",
+    "path": "last_weights/motion_decoder.pt"
+  },
+  {
+    "id": "146ud7aeNvO12LunxPlyoTCq-3TN0KfAg",
+    "path": "last_weights/motion_encoder.pt"
+  },
+  {
+    "id": "1Y4XWORat5sIF1DXlOT45uWp_D2C4J_L9",
+    "path": "last_weights/text_encoder.pt"
+  },
+  {
+    "id": "110tGsic49YkPl6qi7AokuypfriVWM1tl",
+    "path": "logs/checkpoints/.DS_Store"
+  },
+  {
+    "id": "1p_Jsptg-gLONihMWzMNPj-MkRs7qCZnR",
+    "path": "logs/checkpoints/last.ckpt"
+  },
+  {
+    "id": "1ZybDodTwwrG9b4NLS5zPc8sXI-ofB3TW",
+    "path": "logs/.DS_Store"
+  },
+  {
+    "id": "1UgYlYsTS-J58H4y6hdwkyUko-Mra1BTH",
+    "path": "logs/hparams.yaml"
+  },
+  {
+    "id": "1fH3vnWTuHcnPIDrZQwUlqb5pWzSJwHN0",
+    "path": "stats/humanml3d/amass_feats/mean.pt"
+  },
+  {
+    "id": "1T0u8b2aIK7go7F1mc7U7i7dXFZxNwwI-",
+    "path": "stats/humanml3d/amass_feats/std.pt"
+  },
+  {
+    "id": "1QY41LCtgyE8sGCMRNXz2-l1BPfCQ0yOL",
+    "path": "config.json"
+  }
+]

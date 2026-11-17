@@ -1,0 +1,21 @@
+diff --git a/src/model/metrics/__init__.py b/src/model/metrics/__init__.py
+index ad03c66..fd8de8b 100755
+--- a/src/model/metrics/__init__.py
++++ b/src/model/metrics/__init__.py
+@@ -1,2 +1 @@
+-import imp
+ from .compute import ComputeMetrics
+\ No newline at end of file
+diff --git a/src/utils/file_io.py b/src/utils/file_io.py
+index aeb181c..cffc9be 100644
+--- a/src/utils/file_io.py
++++ b/src/utils/file_io.py
+@@ -40,6 +40,8 @@ def get_metric_paths(sample_path: Path, set: str, split: str, onesample: bool, m
+ 
+ 
+ def hack_path(path, keyword='deps'):
++    if Path(path).is_absolute() and Path(path).exists():
++        return str(path)
+     # workaround for cluster local/sync
+     rel_p = path.split('/')
+     ########################################################

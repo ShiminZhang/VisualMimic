@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH --job-name=visualmimic-execute
+#SBATCH --account=def-vganesh_gpu
+#SBATCH --gres=gpu:h100:1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=24G
+#SBATCH --time=00:15:00
+#SBATCH --output=/home/s568zhan/SuperMimic-20261024/visualmimic-%j.log
+set -euo pipefail
+cd /home/s568zhan/SuperMimic-20261024
+module load python/3.12.4
+unset PYTHONPATH
+export PYTHONUNBUFFERED=1 OMP_NUM_THREADS=1 MUJOCO_GL=egl
+export XDG_CACHE_HOME="$PWD/.cache"
+.venv/bin/python -m visualmimic.execute_reference \
+ --reference data/npz/lafan1/walk1_subject2.npz \
+ --checkpoint logs/lafan1-h100-25068748/ckpt_latest.pt \
+ --implementation-commit d9be385b3eeb13a638fb33fb200d3bfd9be9839f \
+ --output "evaluation/visualmimic-${SLURM_JOB_ID}"
