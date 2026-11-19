@@ -34,3 +34,24 @@ supermimic/.venv/bin/python -m visualmimic.execute_reference \
 For a retargeted edit, replace `--reference /path/to/reference.npz` with `--robot-motion pair/edited_robot.npz`. Inspect `rollout/status.json` for the execution outcome and `rollout/result.json` for tracking metrics and artifact references. An early termination is a valid recorded outcome. Use the CPU smoke above for the independently verified path in this release.
 
 [Interfaces](visualmimic/INTERFACES.md) · [Experiment design](VisualMimic.md) · [SuperMimic training](supermimic/README.md) · [Pinned upstream revisions and patches](dependencies.json)
+
+## Course submission and audit packet
+
+[Three-page project and audit summary (PDF)](audit/VisualMimic_Project_Audit_Summary.pdf) · [Editable report](audit/VisualMimic_Project_Audit_Summary.docx) · [Agent usage](AGENT_USAGE.md) · [External resources, data and checkpoint access](audit/RESOURCES.md)
+
+**Team contributions.** Shimin Zhang and Junyang He. All team members contributed equally.
+
+**Setup and inference.** Use the CPU quickstart above for the self-contained smoke. For the learned comparison, install the pinned GPU environment and supply the assets in the resource guide. The [single-sample guide](visualmimic/README.md) covers reconstruction and editing. The GPU example above executes the edited reference.
+
+**Training.** The reported A/B experiment uses a frozen editor and tracking policy. To train a new tracking policy, download the retargeted LAFAN1 CSVs, then run the following from `supermimic/` on a CUDA machine after `uv sync --frozen`:
+
+```bash
+uv run python scripts/data/csv_to_npz_batch.py --input-dir data/raw/lafan1/g1 \
+  --output-dir data/npz/lafan1 --input-fps 30 --workers 4
+uv run sm-train --run-name lafan1 --data.npz-dir data/npz/lafan1 \
+  --env.num-envs 4096 --policy-trainer.batch-size 4096 --schedule.max-hours 3
+```
+
+**Evaluation.** From the repository root, run `python3 audit/evaluate.py` to reproduce the report table offline using the released judgments and ranks. It prints 35, 27, 24 and 21 successes out of 100 for pre-GMR, C, A and B, followed by retrieval metrics for 307 queries. To evaluate a checkpoint on motion tracking, use the [GPU benchmark command](supermimic/README.md#train-and-evaluate). These evaluations measure different outcomes.
+
+**Submission version.** [Repository](https://github.com/ShiminZhang/VisualMimic) · [Tagged audit packet](https://github.com/ShiminZhang/VisualMimic/tree/audit-2026-11-19)

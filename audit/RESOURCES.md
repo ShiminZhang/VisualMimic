@@ -1,0 +1,16 @@
+# External resources and checkpoint access
+
+| Resource | Use and access |
+|---|---|
+| [MotionFix / TMED](https://github.com/atnikos/motionfix) | Source motions, original edit instructions and targets, pretrained text-guided editor and TMR evaluation resources. Follow the upstream data and pretrained-model instructions. The project records expected filenames in [asset_inventory.json](../visualmimic/deployment/asset_inventory.json). |
+| [GVHMR](https://github.com/zju3dv/GVHMR) | Video-to-human reconstruction and associated pose and detection models. Follow upstream installation and checkpoint layout. The five expected weight paths are in [gvhmr_asset_inventory.json](../visualmimic/deployment/gvhmr_asset_inventory.json). |
+| [GMR](https://github.com/YanjieZe/GMR) | Human-to-G1 retargeting. The exact source revisions for GMR, GVHMR and MotionFix and the local patches are in [dependencies.json](../dependencies.json). |
+| [SMPL-H](https://mano.is.tue.mpg.de/) and [SMPL-X](https://smpl-x.is.tue.mpg.de/) | Obtain the licensed body models from their providers. Configure SMPL-H for the editor and the neutral SMPL-X model for GVHMR following its expected directory layout. |
+| [OpenAI CLIP ViT-L/14](https://huggingface.co/openai/clip-vit-large-patch14) | Text conditioning. Supply the model configuration directory with the editor's `--clip-config`. |
+| [SuperMimic](https://arxiv.org/abs/2610.28480), [mjlab](https://github.com/mujocolab/mjlab) and [MuJoCo](https://github.com/google-deepmind/mujoco) | Tracking method and physics stack. The bundled SuperMimic implementation is an independent reproduction. Its source license is in [supermimic/LICENSE](../supermimic/LICENSE). |
+| [LAFAN1 G1 retargets](https://huggingface.co/datasets/lvhaidong/LAFAN1_Retargeting_Dataset) | Download the retargeted G1 CSV files for policy training. Convert to 50 Hz NPZ before training. |
+| [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) and OpenAI GPT-6-Luna | Frozen semantic evaluators. The audit CSV contains the GPT-6-Luna verdicts used for the reported table. Re-aggregation runs offline. |
+
+**Historical tracking checkpoint.** For exact inference, request `supermimic-lafan1-39100.pt` from the team and pass its path to `--checkpoint`. Its SHA-256 is `387e32872046d7e7a618322dc9c832e1f021cf2aa389c3407143718075bed1e2`. Training from the public code produces a new checkpoint. The historical file is stored separately on ICE. Other data and pretrained weights remain subject to the respective providers' access terms.
+
+**Released evidence.** Each row of `judgments.csv` retains the four verdicts for one matched sample from `luna_extend100_v1/combined_report.json` (source SHA-256 `10ad60bd0f99f653260b2e4c86cfcd94c033c99b48e22f914de4120ff4a6835a`). Each row of `composite_ranks.csv` retains the three composite ranks from `abc_g1_retrieval307_v1/report.json` (source SHA-256 `eb287b227dc7dd8af9a4a5c8855fd6417ff81cd945856ef774f6d6a75ae68b64`). These exports support independent aggregation of the reported metrics. Rejudging individual videos or reconstructing distance matrices requires the separate run artifacts.
