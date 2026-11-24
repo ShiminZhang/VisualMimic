@@ -1,4 +1,4 @@
-"""Recheck the portable C2-C4 evidence against the released audit tables."""
+"""Check portable experiment evidence against the released results tables."""
 from collections import Counter
 import hashlib
 import json

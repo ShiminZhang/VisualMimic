@@ -1,4 +1,4 @@
-"""Read saved ICE artifacts and export C2-C4 evidence; never run inference.
+"""Export saved experiment settings, rendering provenance, and judge records.
 
 Run from the repository root with ``python -m audit.export_ice_evidence ROOT``.
 JSON is written to stdout; progress goes to stderr. Original files are read only.
