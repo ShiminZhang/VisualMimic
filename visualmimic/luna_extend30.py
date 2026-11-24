@@ -2,6 +2,8 @@
 import json,sys
 from collections import Counter
 from visualmimic.luna_target_pilot import ROOT,read,write
+from visualmimic.render_provenance import verify_pre_gmr_videos
+from visualmimic.judgment_accounting import combine_judgments
 OUT=ROOT/'campaigns/luna_extend30_v1'
 GROUPS=('pre_GMR','A','B','C')
 def main(stage):
@@ -36,7 +38,9 @@ def main(stage):
   write(OUT/'reference_tasks.json',tasks)
  elif stage=='finalize':
   tasks=json.loads((OUT/'reference_tasks.json').read_text())
-  videos={json.dumps(x['key'],sort_keys=True):x for x in json.loads((OUT/'render/manifest.json').read_text())}
+  rendered=json.loads((OUT/'render/manifest.json').read_text())
+  verify_pre_gmr_videos(tasks,rendered,OUT/'render_preparation')
+  videos={json.dumps(x['key'],sort_keys=True):x for x in rendered}
   assert len(tasks)==len(videos)==20
   for row in tasks:
    v=videos[json.dumps(row['key'],sort_keys=True)]
@@ -45,16 +49,9 @@ def main(stage):
  elif stage=='summary':
   reports=[ROOT/'campaigns/luna_abc10_v1/report.json',ROOT/'campaigns/luna_pregmr10_v1/report.json',OUT/'report.json']
   items=[r for p in reports for r in json.loads(p.read_text())['items']]
-  assert len(items)==120 and len({(x['key']['sample_id'],x['branch']) for x in items})==120
   tasks=json.loads((ROOT/'campaigns/motionfix_target_semantic_v1/tasks.json').read_text())[:30]
-  rows=[]
-  for task in tasks:
-   row={'key':task['key'],'instruction':task['instruction']}
-   for group in GROUPS:
-    r=next(x for x in items if x['key']==task['key'] and x['branch']==group)
-    row[group]=r.get('assessment',{'verdict':'technical_error','reason':r.get('error','')})
-   rows.append(row)
-  counts={g:dict(Counter(x[g]['verdict'] for x in rows)) for g in GROUPS}
+  if len(tasks)!=30:raise ValueError('Expected 30 cohort tasks')
+  rows,counts=combine_judgments(tasks,items)
   transitions=dict(Counter(x['pre_GMR']['verdict']+' -> '+x['C']['verdict'] for x in rows))
   write(OUT/'combined_report.json',{'samples':30,'judgments':120,'groups':counts,'pre_GMR_to_C':transitions,'items':rows,'source_reports':[str(p) for p in reports]})
   print(json.dumps({'groups':counts,'pre_GMR_to_C':transitions}),flush=True)

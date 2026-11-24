@@ -1,6 +1,7 @@
 """Render the exact edited human artifact consumed by A's GMR, never dataset targets."""
 import json,sys
 from visualmimic.luna_target_pilot import ROOT, read, write
+from visualmimic.render_provenance import verify_pre_gmr_videos
 OUT=ROOT/'campaigns/luna_pregmr10_v1'
 def main(stage):
  if stage=='prepare':
@@ -18,7 +19,9 @@ def main(stage):
   write(OUT/'inputs.json',tasks);write(OUT/'human_manifest.json',manifest)
  elif stage=='finalize':
   tasks=json.loads((OUT/'inputs.json').read_text())
-  videos={json.dumps(r['key'],sort_keys=True):r for r in json.loads((OUT/'render/manifest.json').read_text())}
+  rendered=json.loads((OUT/'render/manifest.json').read_text())
+  verify_pre_gmr_videos(tasks,rendered,OUT/'render_preparation')
+  videos={json.dumps(r['key'],sort_keys=True):r for r in rendered}
   assert len(videos)==len(tasks)==10
   for row in tasks:
    v=videos[json.dumps(row['key'],sort_keys=True)]

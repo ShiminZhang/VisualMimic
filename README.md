@@ -54,4 +54,6 @@ uv run sm-train --run-name lafan1 --data.npz-dir data/npz/lafan1 \
 
 **Evaluation.** From the repository root, run `python3 audit/evaluate.py` to reproduce the report table offline using the released judgments and ranks. It prints 35, 27, 24 and 21 successes out of 100 for pre-GMR, C, A and B, followed by retrieval metrics for 307 queries. To evaluate a checkpoint on motion tracking, use the [GPU benchmark command](supermimic/README.md#train-and-evaluate). These evaluations measure different outcomes.
 
+**Rebuttal checks.** [C2–C4 evidence](audit/REBUTTAL.md) verifies matched settings, rendering provenance, and judgment accounting against the saved ICE records. Run `python3 -m audit.verify_evidence` for the portable checks. This uses standard-library Python and requires no model inference. The audit table values are unchanged.
+
 **Submission version.** [Repository](https://github.com/ShiminZhang/VisualMimic) · [Tagged audit packet](https://github.com/ShiminZhang/VisualMimic/tree/audit-2026-11-19)

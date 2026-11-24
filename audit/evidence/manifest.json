@@ -1,0 +1,13 @@
+{
+  "verified_date": "2026-11-24",
+  "evidence_file": "c2_c4.json",
+  "evidence_sha256": "595556cd8ac74547b82ed34add93e4e8e772d1941158be0caab45f526856e93b",
+  "source_reports": {
+    "judgments": "10ad60bd0f99f653260b2e4c86cfcd94c033c99b48e22f914de4120ff4a6835a",
+    "retrieval": "eb287b227dc7dd8af9a4a5c8855fd6417ff81cd945856ef774f6d6a75ae68b64"
+  },
+  "checker_sha256": {
+    "audit/export_ice_evidence.py": "9a24caab3df19395e2148ce527002e48c8eaf11f9e5d09aea7fd5b7de5317b7d",
+    "visualmimic/render_provenance.py": "070b1c7341ea05c3fc8bd54ffe33c263fde603b2c6a6a0e5a09a82874f05b0bb"
+  }
+}
