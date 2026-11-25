@@ -1,0 +1,28 @@
+{
+  "reviewed_at_utc": "2026-11-25T01:24:21.796076+00:00",
+  "contact_sheets_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "cases": 100,
+  "scope": "Assistant inspection of rendering completeness and framing; not human semantic validation or an R1 rating study.",
+  "visible_rendering_defects_observed": false
+}

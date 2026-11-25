@@ -1,0 +1,21 @@
+sample_id,instruction,A_human,B_human,A_reference,B_reference,A_execution,B_execution
+000101,open legs less,success,failure,success,failure,success,success
+000620,throw from further back,success,success,failure,success,failure,failure
+001466,keep making the movement,failure,failure,failure,failure,failure,failure
+001527,tilt your palm so that it faces downwards instead of to the side,success,failure,success,failure,success,success
+001806,stand up straight,success,success,success,success,success,success
+001964,walk two small steps ahead and one backwards,failure,failure,failure,failure,failure,failure
+001968,walk only backwards,success,success,failure,failure,success,success
+002663,after the pause return the motion with the opposite arm circling forward,failure,failure,failure,failure,failure,failure
+002943,do it a bit faster,failure,failure,failure,failure,failure,failure
+003079,clap the hands a bit faster and clap a bit higher near the chest,failure,failure,failure,failure,failure,failure
+003244,begin clapping without arms extended to the right,failure,failure,success,failure,success,failure
+003262,start sitting down a bit later,success,success,success,success,failure,success
+003333,don't get up at the end of the motion,success,success,success,success,success,success
+003371,don't do continuous clapping instead clap once and then keep hands down and then do continuous clapping,failure,failure,failure,failure,failure,failure
+003994,keep doing upper body turns instead of tilt in the end,success,success,success,failure,success,success
+004010,keep arms wider straighten up faster,failure,success,failure,failure,failure,failure
+004409,don't put hand down at the end,failure,success,failure,failure,failure,failure
+004603,not standing up sway body side to side,failure,failure,failure,failure,failure,success
+004954,don't bow and step left,success,success,success,failure,failure,failure
+005543,"start with hand down, and move it higher than before. additionaly move it left-right quickly with small amplitude",failure,failure,failure,failure,failure,failure

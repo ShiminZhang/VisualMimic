@@ -1,0 +1,4 @@
+stage,n,A_success,B_success,B_minus_A_pp,paired_95ci_low_pp,paired_95ci_high_pp,A_only_success,B_only_success,exact_paired_p,unresolved_pairs
+human,20,9,9,0.0,-20.0,20.0,2,2,1.0,0
+reference,20,8,4,-20.0,-40.0,0.0,5,1,0.21875,0
+execution,20,7,8,5.0,-10.0,20.0,1,2,1.0,0

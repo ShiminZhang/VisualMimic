@@ -1,0 +1,21 @@
+{
+  "scope": "Historical judge results on the same selected 20 cases; different rendering/judgment run, not pooled with new results.",
+  "groups": {
+    "pre_GMR": {
+      "failure": 9,
+      "success": 11
+    },
+    "C": {
+      "failure": 13,
+      "success": 7
+    },
+    "A": {
+      "failure": 12,
+      "success": 8
+    },
+    "B": {
+      "failure": 14,
+      "success": 6
+    }
+  }
+}

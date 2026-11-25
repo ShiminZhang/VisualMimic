@@ -1,0 +1,30 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-24-2026 19:25:50
+Job ID:    7297495
+User ID:   szhang957
+Account:   coc
+Job name:  vm-stage-verify
+Partition: ice-cpu
+QOS:       coc-ice
+---------------------------------------
+{
+  "requests_verified": 120,
+  "responses_verified": 120,
+  "fixed_denominators_verified": true,
+  "paired_counts_verified": true,
+  "script_matches_frozen_protocol": true,
+  "report_sha256": "78ede94f213ceacec263af811a2e445d51f1309c69848449a4da3344d6ddef88",
+  "results_sha256": "6afff503752b96f8f4bc1e090c86c57daf7b74c879b4a925d707450899f4e49c"
+}
+---------------------------------------
+Begin Slurm Epilog: Nov-24-2026 19:25:53
+Job ID:        7297495
+User ID:       szhang957
+Account:       coc
+Job name:      vm-stage-verify
+Resources:     cpu=1,mem=2G,node=1
+Rsrc Used:     cput=00:00:03,vmem=0,walltime=00:00:03,mem=27816K,energy_used=0
+Partition:     ice-cpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-004-15-2
+---------------------------------------

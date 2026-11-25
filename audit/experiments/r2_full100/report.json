@@ -1,0 +1,115 @@
+{
+  "cases": 100,
+  "judgments": 600,
+  "groups": {
+    "A_human": {
+      "success": 32,
+      "failure": 68
+    },
+    "B_human": {
+      "failure": 70,
+      "success": 29,
+      "uncertain": 1
+    },
+    "A_reference": {
+      "success": 33,
+      "failure": 66,
+      "uncertain": 1
+    },
+    "B_reference": {
+      "failure": 72,
+      "success": 27,
+      "uncertain": 1
+    },
+    "A_execution": {
+      "success": 27,
+      "failure": 73
+    },
+    "B_execution": {
+      "success": 24,
+      "failure": 75,
+      "uncertain": 1
+    }
+  },
+  "paired": {
+    "human": {
+      "n": 100,
+      "A_only_success": 12,
+      "B_only_success": 9,
+      "both_success": 20,
+      "neither_success": 59,
+      "B_minus_A_percentage_points": -3.0,
+      "paired_bootstrap_95_percent_interval": [
+        -12.0,
+        6.0
+      ],
+      "exact_paired_binary_p": 0.6636238098144531,
+      "unresolved_pairs": 1
+    },
+    "reference": {
+      "n": 100,
+      "A_only_success": 12,
+      "B_only_success": 6,
+      "both_success": 21,
+      "neither_success": 61,
+      "B_minus_A_percentage_points": -6.0,
+      "paired_bootstrap_95_percent_interval": [
+        -14.000000000000002,
+        2.0
+      ],
+      "exact_paired_binary_p": 0.237884521484375,
+      "unresolved_pairs": 2
+    },
+    "execution": {
+      "n": 100,
+      "A_only_success": 9,
+      "B_only_success": 6,
+      "both_success": 18,
+      "neither_success": 67,
+      "B_minus_A_percentage_points": -3.0,
+      "paired_bootstrap_95_percent_interval": [
+        -11.0,
+        5.0
+      ],
+      "exact_paired_binary_p": 0.60723876953125,
+      "unresolved_pairs": 1
+    }
+  },
+  "transitions": {
+    "A_human_to_reference": {
+      "failure -> failure": 56,
+      "failure -> success": 12,
+      "success -> failure": 10,
+      "success -> success": 21,
+      "success -> uncertain": 1
+    },
+    "A_reference_to_execution": {
+      "failure -> failure": 60,
+      "success -> failure": 13,
+      "success -> success": 20,
+      "failure -> success": 6,
+      "uncertain -> success": 1
+    },
+    "B_human_to_reference": {
+      "failure -> failure": 62,
+      "success -> success": 19,
+      "success -> failure": 10,
+      "failure -> uncertain": 1,
+      "failure -> success": 7,
+      "uncertain -> success": 1
+    },
+    "B_reference_to_execution": {
+      "failure -> failure": 62,
+      "success -> failure": 12,
+      "uncertain -> failure": 1,
+      "failure -> success": 9,
+      "success -> success": 15,
+      "failure -> uncertain": 1
+    }
+  },
+  "response_models": [
+    "gpt-6-luna"
+  ],
+  "technical_errors": 0,
+  "note": "Success versus all other outcomes on the fixed cohort; uncertainty and errors also reported separately. Exploratory intervals are not adjusted for three stage comparisons."
+}

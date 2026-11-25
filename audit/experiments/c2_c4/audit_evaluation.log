@@ -1,0 +1,11 @@
+pre_GMR: 35/100 successes
+  success=35, failure=65, uncertain=0, technical_error=0
+C: 27/100 successes
+  success=27, failure=73, uncertain=0, technical_error=0
+  R@1: 15.96%; R@5: 36.16%; Median rank: 16 (307 queries)
+A: 24/100 successes
+  success=24, failure=76, uncertain=0, technical_error=0
+  R@1: 7.49%; R@5: 15.96%; Median rank: 112 (307 queries)
+B: 21/100 successes
+  success=21, failure=79, uncertain=0, technical_error=0
+  R@1: 8.79%; R@5: 19.87%; Median rank: 88 (307 queries)

@@ -1,0 +1,101 @@
+sample_id,instruction,evaluation_batch,A_human,B_human,A_reference,B_reference,A_execution,B_execution
+002943,do it a bit faster,retained_pilot,failure,failure,failure,failure,failure,failure
+005381,"look at the watch on your left wrist. after turning around, take two steps forward. don't look around",additional_80,failure,failure,failure,failure,failure,failure
+002681,don't shift weight on feet,additional_80,failure,failure,success,failure,failure,failure
+002930,don't just move head from left to right rotate it clockwise and keep hands on the side,additional_80,failure,failure,failure,failure,failure,failure
+003667,throw it more towards the right side instead of front and don't do the catch motion,additional_80,failure,failure,failure,failure,failure,failure
+001466,keep making the movement,retained_pilot,failure,failure,failure,failure,failure,failure
+001571,move the hands faster,additional_80,success,failure,failure,failure,failure,failure
+001572,do it little slower,additional_80,failure,success,success,success,failure,failure
+001431,lift your right leg,additional_80,failure,failure,failure,failure,failure,failure
+004010,keep arms wider straighten up faster,retained_pilot,failure,success,failure,failure,failure,failure
+004742,"only move the hand forward, back and to you right",additional_80,failure,failure,failure,failure,failure,failure
+005139,"keep forearm lower, don't raise it high",additional_80,success,failure,failure,failure,failure,failure
+005324,just move the left hand in a rotating fashion on a horizontal plane,additional_80,failure,failure,failure,failure,failure,failure
+003946,make the motion-circle radius a bit biger and lift arms a bit more,additional_80,failure,failure,failure,failure,failure,failure
+002084,turn on a more closed arc,additional_80,failure,failure,failure,uncertain,failure,failure
+005453,move only the right hand,additional_80,failure,failure,failure,failure,failure,failure
+005735,"keep your left arm alongside your body. start with your hand at your ear and bring it down. then repeat the previous movement sooner, but don't clap",additional_80,failure,failure,failure,failure,failure,failure
+001527,tilt your palm so that it faces downwards instead of to the side,retained_pilot,success,failure,success,failure,success,success
+002680,delay wave slightly and move arm much slower,additional_80,success,failure,success,failure,failure,failure
+002173,walk a little less casually and more with purpose instead,additional_80,success,success,success,success,success,success
+004954,don't bow and step left,retained_pilot,success,success,success,failure,failure,failure
+003282,don't extend the arms to the fullest keep them closer to the body and from left hand take something out from the pocket,additional_80,success,failure,failure,failure,failure,failure
+001806,stand up straight,retained_pilot,success,success,success,success,success,success
+004398,not jumping but fine footwork,additional_80,failure,failure,failure,success,success,success
+005717,"move forward as if rolling, spread arms wider",additional_80,failure,failure,failure,failure,failure,failure
+002078,skip the first step,additional_80,failure,failure,failure,failure,failure,failure
+003731,not arm stretching but golf putting,additional_80,failure,failure,failure,failure,failure,success
+000849,Lower the left elbow and raise the opposite hand while gesturing.,additional_80,failure,success,failure,success,failure,failure
+003816,don't move hips,additional_80,failure,failure,success,success,failure,failure
+001396,raise your arms faster and start stepping faster,additional_80,success,success,success,success,success,success
+001499,do the same step start earlier,additional_80,success,success,success,success,success,failure
+003333,don't get up at the end of the motion,retained_pilot,success,success,success,success,success,success
+002279,move slower,additional_80,success,success,success,success,failure,success
+003690,kick leg out but hold leg up in place and stretch it out sideways,additional_80,failure,failure,success,success,failure,failure
+004839,"keep right arm still, swing side to side, look forward",additional_80,failure,failure,failure,failure,failure,failure
+005167,raise both hands in forward direction and dont move the body from the position,additional_80,failure,failure,success,failure,failure,failure
+003640,do it slower,additional_80,success,success,failure,success,failure,failure
+002396,raise head and arch back higher then stand,additional_80,failure,failure,failure,failure,failure,failure
+002767,stand up a bit faster,additional_80,failure,failure,failure,failure,failure,failure
+003021,while getting up move right hand close to the face,additional_80,failure,failure,failure,failure,failure,failure
+000569,take a smaller left step and sit leaning your back more,additional_80,failure,failure,failure,failure,success,success
+002935,cut down the motion until the hands are in line with the shoulders and repeat the motion,additional_80,failure,failure,failure,failure,failure,failure
+004017,begin the motion by getting up from the squat,additional_80,failure,failure,failure,failure,failure,failure
+004608,the start action of right hand should be the last action,additional_80,failure,failure,failure,failure,failure,failure
+001624,do the same first lift your hands little bit slow,additional_80,failure,failure,success,failure,success,failure
+004166,keep your hands together during the whole motion,additional_80,failure,failure,failure,failure,failure,failure
+003710,don't do the initial motion and cross your legs,additional_80,success,failure,success,failure,success,failure
+003562,don't dance with wavy hands instead do skipping rope action,additional_80,success,success,failure,failure,failure,failure
+005074,bow slightly later,additional_80,failure,failure,failure,failure,failure,failure
+004305,not move slowly move upper body forward side to side in seconds,additional_80,failure,failure,failure,failure,failure,failure
+001949,walk two steps ahead before doing the sidestep,additional_80,failure,failure,failure,failure,failure,failure
+000472,do a similar limping motion on the opposite direction and move much faster,additional_80,failure,failure,failure,failure,failure,failure
+002024,skip the two steps ahead,additional_80,failure,failure,failure,failure,failure,failure
+002632,don't shift weight on feet or lean to right,additional_80,success,failure,success,failure,success,success
+004409,don't put hand down at the end,retained_pilot,failure,success,failure,failure,failure,failure
+000846,Maintain the hands at chest level,additional_80,failure,failure,failure,failure,failure,failure
+003079,clap the hands a bit faster and clap a bit higher near the chest,retained_pilot,failure,failure,failure,failure,failure,failure
+003087,do it faster and keep head straight,additional_80,failure,success,failure,failure,failure,failure
+002722,slow your throwing and standing motion,additional_80,failure,failure,failure,failure,failure,failure
+001964,walk two small steps ahead and one backwards,retained_pilot,failure,failure,failure,failure,failure,failure
+004174,move the hand to the side of the head and keep it there don't move about your legs,additional_80,failure,failure,success,success,success,success
+005778,keep your weight on your left leg and extend your right leg forward. keep looking at your arms,additional_80,failure,success,failure,failure,failure,failure
+000101,open legs less,retained_pilot,success,failure,success,failure,success,success
+004424,start with arms already in cross position over the body,additional_80,failure,success,success,success,success,success
+004425,don't move forward just step in place,additional_80,failure,success,failure,success,success,failure
+001509,do it little faster,additional_80,success,success,success,success,failure,failure
+004607,don't dance and stay still and raise right hand towards left side,additional_80,failure,failure,failure,failure,failure,failure
+002061,keep walking forward instead of backwards when completing hit,additional_80,failure,success,success,success,success,failure
+003401,don't bend elbows and do it slower,additional_80,failure,failure,failure,failure,failure,failure
+003101,turn from the right side instead of left,additional_80,failure,failure,failure,failure,failure,failure
+002219,walk shorter steps,additional_80,success,success,failure,failure,failure,failure
+001968,walk only backwards,retained_pilot,success,success,failure,failure,success,success
+000620,throw from further back,retained_pilot,success,success,failure,success,failure,failure
+003819,don't bend the waist after catching action,additional_80,success,success,success,success,success,success
+002663,after the pause return the motion with the opposite arm circling forward,retained_pilot,failure,failure,failure,failure,failure,failure
+001589,do it little slower,additional_80,success,success,failure,failure,success,failure
+003689,start movement earlier with hands already up and go slightly faster,additional_80,failure,failure,failure,failure,failure,failure
+003994,keep doing upper body turns instead of tilt in the end,retained_pilot,success,success,success,failure,success,success
+004627,start earlier move slightly slower in the end,additional_80,success,failure,success,success,failure,success
+001579,kick higher and turn towards your right as you are kicking,additional_80,failure,failure,success,failure,failure,failure
+003165,instead of moving both legs from side to side spread arms,additional_80,failure,failure,failure,failure,failure,failure
+002143,instead of throwing walk in a circular path to the left while wobbling,additional_80,failure,failure,failure,failure,success,failure
+002286,move a little faster,additional_80,success,success,success,success,success,success
+002370,spin around faster and raise the right arm,additional_80,success,success,success,success,success,success
+001332,slow down,additional_80,success,uncertain,success,success,failure,failure
+005672,dont bend on the left side and just bend slightly on the back with hands bent in elbows,additional_80,failure,failure,failure,failure,failure,success
+003244,begin clapping without arms extended to the right,retained_pilot,failure,failure,success,failure,success,failure
+003366,do it faster,additional_80,failure,failure,failure,failure,failure,failure
+003371,don't do continuous clapping instead clap once and then keep hands down and then do continuous clapping,retained_pilot,failure,failure,failure,failure,failure,failure
+004224,don't move left arm and head,additional_80,success,failure,success,success,success,success
+004745,"keep your neck straight, head facing 20 degrees anticlockwise",additional_80,success,failure,uncertain,failure,success,uncertain
+005611,"don't raise arm, shift body weight more on right leg",additional_80,success,success,failure,success,failure,failure
+003262,start sitting down a bit later,retained_pilot,success,success,success,success,failure,success
+004486,keep hands crossed at waist height and just make clapping motion,additional_80,failure,failure,failure,failure,failure,failure
+004797,look a bit up and clap hands,additional_80,failure,failure,failure,failure,failure,failure
+004808,"not raising left arm, clap",additional_80,failure,failure,failure,failure,failure,failure
+005536,don't lower head so much,additional_80,failure,failure,success,success,success,success
+005543,"start with hand down, and move it higher than before. additionaly move it left-right quickly with small amplitude",retained_pilot,failure,failure,failure,failure,failure,failure
+005567,raise the right hand and move it across the face instead of keeping hands on the side,additional_80,failure,failure,failure,failure,failure,failure
+004603,not standing up sway body side to side,retained_pilot,failure,failure,failure,failure,failure,success

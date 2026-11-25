@@ -1,0 +1,73 @@
+{
+  "holm_adjusted_p": {
+    "reference": 0.713653564453125,
+    "execution": 1.0,
+    "human": 1.0
+  },
+  "strata": {
+    "retained_20": {
+      "n": 20,
+      "groups": {
+        "A_human": {
+          "failure": 11,
+          "success": 9
+        },
+        "B_human": {
+          "failure": 11,
+          "success": 9
+        },
+        "A_reference": {
+          "success": 8,
+          "failure": 12
+        },
+        "B_reference": {
+          "failure": 16,
+          "success": 4
+        },
+        "A_execution": {
+          "success": 7,
+          "failure": 13
+        },
+        "B_execution": {
+          "failure": 12,
+          "success": 8
+        }
+      }
+    },
+    "additional_80": {
+      "n": 80,
+      "groups": {
+        "A_human": {
+          "failure": 57,
+          "success": 23
+        },
+        "B_human": {
+          "failure": 59,
+          "uncertain": 1,
+          "success": 20
+        },
+        "A_reference": {
+          "failure": 54,
+          "success": 25,
+          "uncertain": 1
+        },
+        "B_reference": {
+          "failure": 56,
+          "success": 23,
+          "uncertain": 1
+        },
+        "A_execution": {
+          "failure": 60,
+          "success": 20
+        },
+        "B_execution": {
+          "failure": 63,
+          "success": 16,
+          "uncertain": 1
+        }
+      }
+    }
+  },
+  "independent_exact_tests_verified": true,
+  "all_120_pilot_results_unchanged": true
+}

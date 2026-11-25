@@ -1,0 +1,7 @@
+{
+  "render_computations_unchanged": true,
+  "frame_sampling_unchanged": true,
+  "judge_request_and_response_code_unchanged": true,
+  "pilot_script_sha256": "e2197e0a579364cead6a34d9a324a556fec1618ac4d79e4e3e8822fd8bbc7457",
+  "extension_script_sha256": "ddd031bbd1a6bf5e56b7707d1f8280b0ccbf43f9948495e046e521fb4baac091"
+}

@@ -1,0 +1,4 @@
+stage,n,A_success,B_success,B_minus_A_pp,paired_95ci_low_pp,paired_95ci_high_pp,A_only_success,B_only_success,exact_paired_p,holm_adjusted_p,unresolved_pairs
+human,100,32,29,-3.0,-12.0,6.0,12,9,0.6636238098144531,1.0,1
+reference,100,33,27,-6.0,-14.000000000000002,2.0,12,6,0.237884521484375,0.713653564453125,2
+execution,100,27,24,-3.0,-11.0,5.0,9,6,0.60723876953125,1.0,1

@@ -1,0 +1,9 @@
+{
+  "requests_verified": 120,
+  "responses_verified": 120,
+  "fixed_denominators_verified": true,
+  "paired_counts_verified": true,
+  "script_matches_frozen_protocol": true,
+  "report_sha256": "78ede94f213ceacec263af811a2e445d51f1309c69848449a4da3344d6ddef88",
+  "results_sha256": "6afff503752b96f8f4bc1e090c86c57daf7b74c879b4a925d707450899f4e49c"
+}

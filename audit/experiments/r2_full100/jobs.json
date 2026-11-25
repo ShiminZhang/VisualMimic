@@ -1,0 +1,13 @@
+{
+  "cancelled_pending_jobs": [
+    "7298257",
+    "7298263"
+  ],
+  "render": "7298326",
+  "qa": "7298327",
+  "render_gpu": "V100",
+  "pilot_render_gpu": "H100",
+  "reason": "Original GPU request was pending; used available compatible renderer hardware. Same software, motion inputs and rendering code.",
+  "judge": "7298986",
+  "verify": "7299002"
+}

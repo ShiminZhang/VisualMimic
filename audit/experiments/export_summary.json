@@ -1,0 +1,27 @@
+{
+  "c2_c4": {
+    "matched_pairs": 307,
+    "original_json_files": 3362,
+    "response_excerpts": 400
+  },
+  "r2_pilot": {
+    "cases": 20,
+    "judgments": 120,
+    "requests_verified_before_image_omission": 120,
+    "responses_verified_before_envelope_omission": 120,
+    "job_logs": 4
+  },
+  "r2_full100": {
+    "cases": 100,
+    "judgments": 600,
+    "requests_verified_before_image_omission": 600,
+    "responses_verified_before_envelope_omission": 600,
+    "job_logs": 4
+  },
+  "excluded": [
+    "credentials and authentication headers",
+    "API account metadata and encrypted reasoning",
+    "image and video bytes",
+    "licensed motion/body-model assets and policy weights"
+  ]
+}

@@ -1,0 +1,736 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-24-2026 20:24:36
+Job ID:    7298986
+User ID:   szhang957
+Account:   coc
+Job name:  vm-full100-judge
+Partition: ice-cpu
+QOS:       coc-ice
+---------------------------------------
+JUDGED 1 001806 B_reference success
+JUDGED 2 002663 A_human failure
+JUDGED 3 004010 A_human failure
+JUDGED 4 002722 B_execution failure
+JUDGED 5 001589 A_reference failure
+JUDGED 6 004603 A_reference failure
+JUDGED 7 000101 A_reference success
+JUDGED 8 005324 B_reference failure
+JUDGED 9 004954 B_execution failure
+JUDGED 10 005778 A_human failure
+JUDGED 11 005074 B_reference failure
+JUDGED 12 002767 B_human failure
+JUDGED 13 003333 A_human success
+JUDGED 14 002943 A_human failure
+JUDGED 15 004409 A_execution failure
+JUDGED 16 001968 A_reference failure
+JUDGED 17 003667 A_execution failure
+JUDGED 18 000849 B_human success
+JUDGED 19 003667 B_human failure
+JUDGED 20 001964 B_reference failure
+JUDGED 21 002061 B_execution failure
+JUDGED 22 002681 B_human failure
+JUDGED 23 004839 B_execution failure
+JUDGED 24 005167 A_human failure
+JUDGED 25 003101 B_reference failure
+JUDGED 26 004808 A_execution failure
+JUDGED 27 003244 B_human failure
+JUDGED 28 003165 A_human failure
+JUDGED 29 000472 A_human failure
+JUDGED 30 003667 A_reference failure
+JUDGED 31 003401 A_reference failure
+JUDGED 32 000569 B_human failure
+JUDGED 33 005139 A_execution failure
+JUDGED 34 000472 A_execution failure
+JUDGED 35 004742 B_human failure
+JUDGED 36 001624 A_human failure
+JUDGED 37 001332 B_reference success
+JUDGED 38 002663 A_reference failure
+JUDGED 39 001431 A_execution failure
+JUDGED 40 005672 A_execution failure
+JUDGED 41 003562 A_human success
+JUDGED 42 001964 B_human failure
+JUDGED 43 004797 B_execution failure
+JUDGED 44 004742 A_reference failure
+JUDGED 45 001806 B_human success
+JUDGED 46 004607 B_human failure
+JUDGED 47 001431 B_human failure
+JUDGED 48 001572 A_execution failure
+JUDGED 49 005735 A_human failure
+JUDGED 50 000569 A_human failure
+JUDGED 51 002173 B_reference success
+JUDGED 52 001466 B_reference failure
+JUDGED 53 001572 B_human success
+JUDGED 54 003994 A_human success
+JUDGED 55 004166 A_execution failure
+JUDGED 56 005735 A_reference failure
+JUDGED 57 001964 B_execution failure
+JUDGED 58 001509 A_reference success
+JUDGED 59 002681 B_reference failure
+JUDGED 60 005453 A_human failure
+JUDGED 61 001499 B_execution failure
+JUDGED 62 004409 B_execution failure
+JUDGED 63 003640 B_human success
+JUDGED 64 002681 A_reference success
+JUDGED 65 003244 A_reference success
+JUDGED 66 001806 A_reference success
+JUDGED 67 004224 A_reference success
+JUDGED 68 005717 B_execution failure
+JUDGED 69 005139 A_human success
+JUDGED 70 003710 A_human success
+JUDGED 71 001949 B_execution failure
+JUDGED 72 003244 B_reference failure
+JUDGED 73 004627 B_execution success
+JUDGED 74 004017 B_human failure
+JUDGED 75 003667 B_execution failure
+JUDGED 76 003731 A_human failure
+JUDGED 77 003994 A_execution success
+JUDGED 78 003244 A_execution success
+JUDGED 79 002396 A_reference failure
+JUDGED 80 003282 A_execution failure
+JUDGED 81 004603 B_human failure
+JUDGED 82 004425 A_reference failure
+JUDGED 83 003079 A_execution failure
+JUDGED 84 003819 A_reference success
+JUDGED 85 005167 A_reference success
+JUDGED 86 001571 A_human success
+JUDGED 87 003689 B_reference failure
+JUDGED 88 004745 B_reference failure
+JUDGED 89 001589 B_reference failure
+JUDGED 90 003087 B_execution failure
+JUDGED 91 005778 A_reference failure
+JUDGED 92 001431 A_human failure
+JUDGED 93 000846 B_execution failure
+JUDGED 94 002370 A_execution success
+JUDGED 95 003401 B_human failure
+JUDGED 96 004608 B_reference failure
+JUDGED 97 004839 A_reference failure
+JUDGED 98 001431 B_execution failure
+JUDGED 99 003731 B_reference failure
+JUDGED 100 005717 B_reference failure
+JUDGED 101 003087 B_reference failure
+JUDGED 102 002680 B_execution failure
+JUDGED 103 004745 A_execution success
+JUDGED 104 004424 B_reference success
+JUDGED 105 003079 B_execution failure
+JUDGED 106 005543 A_execution failure
+JUDGED 107 002173 A_execution success
+JUDGED 108 003282 B_human failure
+JUDGED 109 002024 B_reference failure
+JUDGED 110 005381 B_human failure
+JUDGED 111 003562 B_reference failure
+JUDGED 112 004409 B_human success
+JUDGED 113 000569 B_execution success
+JUDGED 114 002024 B_execution failure
+JUDGED 115 003710 B_reference failure
+JUDGED 116 003366 A_reference failure
+JUDGED 117 001624 B_execution failure
+JUDGED 118 003079 A_reference failure
+JUDGED 119 001579 A_human failure
+JUDGED 120 002084 B_human failure
+JUDGED 121 002286 A_execution success
+JUDGED 122 004224 A_human success
+JUDGED 123 002632 A_human success
+JUDGED 124 005567 B_human failure
+JUDGED 125 002632 B_execution success
+JUDGED 126 003819 B_execution success
+JUDGED 127 003371 B_reference failure
+JUDGED 128 001572 A_human failure
+JUDGED 129 001571 A_execution failure
+JUDGED 130 003946 B_human failure
+JUDGED 131 004425 A_human failure
+JUDGED 132 000846 A_execution failure
+JUDGED 133 004608 B_execution failure
+JUDGED 134 003690 A_execution failure
+JUDGED 135 004010 B_human success
+JUDGED 136 002061 A_human failure
+JUDGED 137 004424 B_human success
+JUDGED 138 004224 B_execution success
+JUDGED 139 002663 B_reference failure
+JUDGED 140 002084 A_human failure
+JUDGED 141 003819 B_human success
+JUDGED 142 003731 B_execution success
+JUDGED 143 001509 B_execution failure
+JUDGED 144 002173 B_human success
+JUDGED 145 000569 B_reference failure
+JUDGED 146 003562 A_reference failure
+JUDGED 147 004424 A_execution success
+JUDGED 148 003021 B_human failure
+JUDGED 149 002681 A_human failure
+JUDGED 150 005543 B_reference failure
+JUDGED 151 005453 A_execution failure
+JUDGED 152 004954 A_execution failure
+JUDGED 153 002078 A_human failure
+JUDGED 154 001572 A_reference success
+JUDGED 155 004174 B_reference success
+JUDGED 156 002024 A_execution failure
+JUDGED 157 002024 A_human failure
+JUDGED 158 005381 B_execution failure
+JUDGED 159 003819 A_execution success
+JUDGED 160 003366 A_execution failure
+JUDGED 161 001396 A_reference success
+JUDGED 162 005381 A_human failure
+JUDGED 163 005567 A_reference failure
+JUDGED 164 002935 B_execution failure
+JUDGED 165 003689 B_execution failure
+JUDGED 166 002061 B_reference success
+JUDGED 167 003689 A_human failure
+JUDGED 168 004425 A_execution success
+JUDGED 169 000472 B_execution failure
+JUDGED 170 005567 B_execution failure
+JUDGED 171 003333 A_reference success
+JUDGED 172 002078 A_reference failure
+JUDGED 173 000569 A_execution success
+JUDGED 174 002943 A_reference failure
+JUDGED 175 004627 A_reference success
+JUDGED 176 003262 B_human success
+JUDGED 177 003816 B_human failure
+JUDGED 178 001579 B_human failure
+JUDGED 179 003816 B_reference success
+JUDGED 180 002173 A_human success
+JUDGED 181 002930 A_reference failure
+JUDGED 182 005167 B_reference failure
+JUDGED 183 001572 B_execution failure
+JUDGED 184 004486 A_reference failure
+JUDGED 185 005536 A_execution success
+JUDGED 186 002173 A_reference success
+JUDGED 187 000849 A_human failure
+JUDGED 188 003282 B_execution failure
+JUDGED 189 004627 B_reference success
+JUDGED 190 003690 B_execution failure
+JUDGED 191 003371 A_reference failure
+JUDGED 192 003079 B_reference failure
+JUDGED 193 002061 B_human success
+JUDGED 194 002396 B_human failure
+JUDGED 195 005778 B_human success
+JUDGED 196 003401 B_execution failure
+JUDGED 197 005324 A_human failure
+JUDGED 198 005536 A_reference success
+JUDGED 199 002722 B_human failure
+JUDGED 200 004166 A_reference failure
+JUDGED 201 003562 A_execution failure
+JUDGED 202 001624 A_reference success
+JUDGED 203 003021 A_human failure
+JUDGED 204 004742 A_human failure
+JUDGED 205 004424 A_human failure
+JUDGED 206 002219 B_human success
+JUDGED 207 003946 B_execution failure
+JUDGED 208 004627 B_human failure
+JUDGED 209 003165 B_execution failure
+JUDGED 210 004398 A_execution success
+JUDGED 211 005672 A_human failure
+JUDGED 212 004808 B_reference failure
+JUDGED 213 000472 B_reference failure
+JUDGED 214 005611 A_execution failure
+JUDGED 215 005543 B_execution failure
+JUDGED 216 002279 A_reference success
+JUDGED 217 001527 A_execution success
+JUDGED 218 005536 B_human failure
+JUDGED 219 002767 B_reference failure
+JUDGED 220 001949 B_human failure
+JUDGED 221 001579 B_reference failure
+JUDGED 222 003667 A_human failure
+JUDGED 223 002767 A_human failure
+JUDGED 224 004742 B_reference failure
+JUDGED 225 001571 B_human failure
+JUDGED 226 005567 A_execution failure
+JUDGED 227 002084 B_reference uncertain
+JUDGED 228 003087 A_reference failure
+JUDGED 229 004409 B_reference failure
+JUDGED 230 003371 A_execution failure
+JUDGED 231 004010 A_reference failure
+JUDGED 232 005672 B_reference failure
+JUDGED 233 005074 B_human failure
+JUDGED 234 004010 B_reference failure
+JUDGED 235 004627 A_human success
+JUDGED 236 005074 A_execution failure
+JUDGED 237 005453 B_execution failure
+JUDGED 238 004305 A_reference failure
+JUDGED 239 003690 A_reference success
+JUDGED 240 004608 B_human failure
+JUDGED 241 004745 A_human success
+JUDGED 242 001968 B_reference failure
+JUDGED 243 005167 B_execution failure
+JUDGED 244 002078 A_execution failure
+JUDGED 245 003710 B_human failure
+JUDGED 246 002681 A_execution failure
+JUDGED 247 002084 A_reference failure
+JUDGED 248 003165 A_execution failure
+JUDGED 249 005611 A_human success
+JUDGED 250 002722 A_execution failure
+JUDGED 251 005735 B_human failure
+JUDGED 252 003333 A_execution success
+JUDGED 253 005717 A_execution failure
+JUDGED 254 005611 B_reference success
+JUDGED 255 005139 A_reference failure
+JUDGED 256 003021 B_execution failure
+JUDGED 257 004954 B_reference failure
+JUDGED 258 005536 B_reference success
+JUDGED 259 002219 A_execution failure
+JUDGED 260 004808 A_reference failure
+JUDGED 261 002143 A_human failure
+JUDGED 262 003244 B_execution failure
+JUDGED 263 002632 B_reference failure
+JUDGED 264 005735 A_execution failure
+JUDGED 265 000620 B_reference success
+JUDGED 266 004424 B_execution success
+JUDGED 267 004607 B_reference failure
+JUDGED 268 004174 B_execution success
+JUDGED 269 004010 A_execution failure
+JUDGED 270 004603 A_human failure
+JUDGED 271 000620 B_human success
+JUDGED 272 003562 B_execution failure
+JUDGED 273 001806 A_execution success
+JUDGED 274 001949 A_reference failure
+JUDGED 275 004797 A_reference failure
+JUDGED 276 002680 B_human failure
+JUDGED 277 001396 B_execution success
+JUDGED 278 002632 A_reference success
+JUDGED 279 005672 B_human failure
+JUDGED 280 004742 B_execution failure
+JUDGED 281 003282 B_reference failure
+JUDGED 282 002078 B_human failure
+JUDGED 283 003021 B_reference failure
+JUDGED 284 002219 B_execution failure
+JUDGED 285 003731 A_execution failure
+JUDGED 286 003262 B_execution success
+JUDGED 287 002279 B_human success
+JUDGED 288 003366 B_human failure
+JUDGED 289 005167 B_human failure
+JUDGED 290 003946 A_execution failure
+JUDGED 291 002219 A_human success
+JUDGED 292 001431 A_reference failure
+JUDGED 293 003946 B_reference failure
+JUDGED 294 001968 B_execution success
+JUDGED 295 001527 B_execution success
+JUDGED 296 005778 B_reference failure
+JUDGED 297 001499 B_human success
+JUDGED 298 001964 A_reference failure
+JUDGED 299 005611 A_reference failure
+JUDGED 300 003165 B_reference failure
+JUDGED 301 003640 B_reference success
+JUDGED 302 004607 A_execution failure
+JUDGED 303 001332 A_human success
+JUDGED 304 000101 A_execution success
+JUDGED 305 004017 B_execution failure
+JUDGED 306 001806 A_human success
+JUDGED 307 005536 A_human failure
+JUDGED 308 003262 A_execution failure
+JUDGED 309 003262 A_reference success
+JUDGED 310 004425 B_reference success
+JUDGED 311 002396 B_execution failure
+JUDGED 312 003994 B_reference failure
+JUDGED 313 001431 B_reference failure
+JUDGED 314 004305 B_execution failure
+JUDGED 315 002930 B_human failure
+JUDGED 316 002024 A_reference failure
+JUDGED 317 002930 A_human failure
+JUDGED 318 004839 A_execution failure
+JUDGED 319 003946 A_reference failure
+JUDGED 320 004305 A_human failure
+JUDGED 321 001624 B_reference failure
+JUDGED 322 003282 A_reference failure
+JUDGED 323 002632 B_human failure
+JUDGED 324 003710 A_reference success
+JUDGED 325 003731 A_reference failure
+JUDGED 326 001589 A_human success
+JUDGED 327 002143 B_human failure
+JUDGED 328 001806 B_execution success
+JUDGED 329 001509 B_human success
+JUDGED 330 003333 B_execution success
+JUDGED 331 003994 A_reference success
+JUDGED 332 002279 A_human success
+JUDGED 333 004808 A_human failure
+JUDGED 334 001571 B_execution failure
+JUDGED 335 003640 A_human success
+JUDGED 336 002943 B_execution failure
+JUDGED 337 003640 A_reference failure
+JUDGED 338 005567 B_reference failure
+JUDGED 339 005453 B_reference failure
+JUDGED 340 002024 B_human failure
+JUDGED 341 005717 A_human failure
+JUDGED 342 004017 B_reference failure
+JUDGED 343 005672 B_execution success
+JUDGED 344 003689 B_human failure
+JUDGED 345 004603 B_execution success
+JUDGED 346 004839 B_human failure
+JUDGED 347 004425 B_human success
+JUDGED 348 001396 A_execution success
+JUDGED 349 002935 B_reference failure
+JUDGED 350 002370 A_human success
+JUDGED 351 004409 A_reference failure
+JUDGED 352 002930 B_reference failure
+JUDGED 353 003816 B_execution failure
+JUDGED 354 000472 B_human failure
+JUDGED 355 003101 B_human failure
+JUDGED 356 002286 B_human success
+JUDGED 357 003731 B_human failure
+JUDGED 358 000620 A_human success
+JUDGED 359 001571 B_reference failure
+JUDGED 360 001466 A_human failure
+JUDGED 361 000846 A_reference failure
+JUDGED 362 004607 B_execution failure
+JUDGED 363 004305 B_reference failure
+JUDGED 364 004486 A_execution failure
+JUDGED 365 002935 A_execution failure
+JUDGED 366 002935 A_human failure
+JUDGED 367 001396 A_human success
+JUDGED 368 004742 A_execution failure
+JUDGED 369 001396 B_human success
+JUDGED 370 002935 A_reference failure
+JUDGED 371 003021 A_reference failure
+JUDGED 372 004174 B_human failure
+JUDGED 373 000849 B_reference success
+JUDGED 374 004954 B_human success
+JUDGED 375 003710 B_execution failure
+JUDGED 376 001527 A_human success
+JUDGED 377 002286 B_reference success
+JUDGED 378 001949 A_human failure
+JUDGED 379 002143 A_reference failure
+JUDGED 380 001949 B_reference failure
+JUDGED 381 003087 A_human failure
+JUDGED 382 004224 A_execution success
+JUDGED 383 000101 B_execution success
+JUDGED 384 003366 A_human failure
+JUDGED 385 001499 A_human success
+JUDGED 386 003816 A_human failure
+JUDGED 387 005453 A_reference failure
+JUDGED 388 002396 A_execution failure
+JUDGED 389 003994 B_execution success
+JUDGED 390 004166 B_human failure
+JUDGED 391 002219 A_reference failure
+JUDGED 392 002084 A_execution failure
+JUDGED 393 003101 A_reference failure
+JUDGED 394 002173 B_execution success
+JUDGED 395 000620 A_execution failure
+JUDGED 396 004797 A_execution failure
+JUDGED 397 003690 B_reference success
+JUDGED 398 002084 B_execution failure
+JUDGED 399 001509 B_reference success
+JUDGED 400 004398 A_human failure
+JUDGED 401 003101 B_execution failure
+JUDGED 402 001968 B_human success
+JUDGED 403 004166 B_reference failure
+JUDGED 404 005139 B_human failure
+JUDGED 405 004608 A_human failure
+JUDGED 406 002722 A_human failure
+JUDGED 407 002767 A_reference failure
+JUDGED 408 003401 A_human failure
+JUDGED 409 003819 A_human success
+JUDGED 410 003366 B_reference failure
+JUDGED 411 003165 B_human failure
+JUDGED 412 004174 A_execution success
+JUDGED 413 001964 A_human failure
+JUDGED 414 005139 B_reference failure
+JUDGED 415 002279 B_reference success
+JUDGED 416 005381 A_reference failure
+JUDGED 417 005543 B_human failure
+JUDGED 418 000101 B_human failure
+JUDGED 419 005324 A_execution failure
+JUDGED 420 002286 B_execution success
+JUDGED 421 001527 B_human failure
+JUDGED 422 003101 A_human failure
+JUDGED 423 000849 A_reference failure
+JUDGED 424 005778 A_execution failure
+JUDGED 425 004486 A_human failure
+JUDGED 426 005074 A_human failure
+JUDGED 427 004797 B_reference failure
+JUDGED 428 001509 A_human success
+JUDGED 429 001332 B_human uncertain
+JUDGED 430 001332 B_execution failure
+JUDGED 431 002061 A_reference success
+JUDGED 432 003333 B_reference success
+JUDGED 433 002680 A_human success
+JUDGED 434 002078 B_reference failure
+JUDGED 435 002663 B_human failure
+JUDGED 436 003640 B_execution failure
+JUDGED 437 002935 B_human failure
+JUDGED 438 002930 A_execution failure
+JUDGED 439 001949 A_execution failure
+JUDGED 440 002930 B_execution failure
+JUDGED 441 001499 A_reference success
+JUDGED 442 001589 B_execution failure
+JUDGED 443 005778 B_execution failure
+JUDGED 444 005074 B_execution failure
+JUDGED 445 001589 B_human success
+JUDGED 446 005324 B_human failure
+JUDGED 447 005611 B_human success
+JUDGED 448 002286 A_human success
+JUDGED 449 003165 A_reference failure
+JUDGED 450 004954 A_human success
+JUDGED 451 001964 A_execution failure
+JUDGED 452 002370 A_reference success
+JUDGED 453 004607 A_human failure
+JUDGED 454 002680 A_reference success
+JUDGED 455 002663 B_execution failure
+JUDGED 456 005735 B_execution failure
+JUDGED 457 002632 A_execution success
+JUDGED 458 003079 A_human failure
+JUDGED 459 003079 B_human failure
+JUDGED 460 005381 B_reference failure
+JUDGED 461 004424 A_reference success
+JUDGED 462 003262 A_human success
+JUDGED 463 003690 A_human failure
+JUDGED 464 001332 A_execution failure
+JUDGED 465 004305 B_human failure
+JUDGED 466 004017 A_reference failure
+JUDGED 467 002722 A_reference failure
+JUDGED 468 002143 B_execution failure
+JUDGED 469 005381 A_execution failure
+JUDGED 470 003333 B_human success
+JUDGED 471 003101 A_execution failure
+JUDGED 472 004797 A_human failure
+JUDGED 473 001527 B_reference failure
+JUDGED 474 001499 B_reference success
+JUDGED 475 004745 B_execution uncertain
+JUDGED 476 003689 A_reference failure
+JUDGED 477 003371 B_execution failure
+JUDGED 478 000101 B_reference failure
+JUDGED 479 004398 B_human failure
+JUDGED 480 002767 A_execution failure
+JUDGED 481 004224 B_human failure
+JUDGED 482 003371 A_human failure
+JUDGED 483 004839 B_reference failure
+JUDGED 484 002680 A_execution failure
+JUDGED 485 004486 B_execution failure
+JUDGED 486 005543 A_reference failure
+JUDGED 487 003690 B_human failure
+JUDGED 488 003021 A_execution failure
+JUDGED 489 004603 A_execution failure
+JUDGED 490 000569 A_reference failure
+JUDGED 491 003816 A_execution failure
+JUDGED 492 003087 A_execution failure
+JUDGED 493 002396 B_reference failure
+JUDGED 494 001527 A_reference success
+JUDGED 495 004808 B_human failure
+JUDGED 496 002681 B_execution failure
+JUDGED 497 001589 A_execution success
+JUDGED 498 001571 A_reference failure
+JUDGED 499 002143 B_reference failure
+JUDGED 500 004608 A_execution failure
+JUDGED 501 003562 B_human success
+JUDGED 502 004954 A_reference success
+JUDGED 503 002396 A_human failure
+JUDGED 504 004425 B_execution failure
+JUDGED 505 001968 A_execution success
+JUDGED 506 004398 A_reference failure
+JUDGED 507 002722 B_reference failure
+JUDGED 508 002943 A_execution failure
+JUDGED 509 005139 B_execution failure
+JUDGED 510 003710 A_execution success
+JUDGED 511 004486 B_human failure
+JUDGED 512 000846 B_reference failure
+JUDGED 513 004174 A_reference success
+JUDGED 514 005453 B_human failure
+JUDGED 515 005672 A_reference failure
+JUDGED 516 001466 B_execution failure
+JUDGED 517 001509 A_execution failure
+JUDGED 518 000846 B_human failure
+JUDGED 519 001624 A_execution success
+JUDGED 520 005611 B_execution failure
+JUDGED 521 005717 A_reference failure
+JUDGED 522 001579 B_execution failure
+JUDGED 523 004797 B_human failure
+JUDGED 524 004224 B_reference success
+JUDGED 525 001466 A_execution failure
+JUDGED 526 003640 A_execution failure
+JUDGED 527 001332 A_reference success
+JUDGED 528 005735 B_reference failure
+JUDGED 529 001466 A_reference failure
+JUDGED 530 004745 A_reference uncertain
+JUDGED 531 002219 B_reference failure
+JUDGED 532 002286 A_reference success
+JUDGED 533 004627 A_execution failure
+JUDGED 534 002680 B_reference failure
+JUDGED 535 004607 A_reference failure
+JUDGED 536 001968 A_human success
+JUDGED 537 002370 B_human success
+JUDGED 538 003819 B_reference success
+JUDGED 539 003946 A_human failure
+JUDGED 540 002279 B_execution success
+JUDGED 541 003816 A_reference success
+JUDGED 542 002370 B_execution success
+JUDGED 543 004839 A_human failure
+JUDGED 544 003282 A_human success
+JUDGED 545 004409 A_human failure
+JUDGED 546 002061 A_execution success
+JUDGED 547 000620 B_execution failure
+JUDGED 548 001499 A_execution success
+JUDGED 549 002279 A_execution failure
+JUDGED 550 003366 B_execution failure
+JUDGED 551 005167 A_execution failure
+JUDGED 552 003401 A_execution failure
+JUDGED 553 003371 B_human failure
+JUDGED 554 002143 A_execution success
+JUDGED 555 003401 B_reference failure
+JUDGED 556 005074 A_reference failure
+JUDGED 557 004603 B_reference failure
+JUDGED 558 001579 A_execution failure
+JUDGED 559 001466 B_human failure
+JUDGED 560 005536 B_execution success
+JUDGED 561 003244 A_human failure
+JUDGED 562 002078 B_execution failure
+JUDGED 563 000101 A_human success
+JUDGED 564 004398 B_execution success
+JUDGED 565 003087 B_human success
+JUDGED 566 000472 A_reference failure
+JUDGED 567 004166 B_execution failure
+JUDGED 568 004166 A_human failure
+JUDGED 569 001624 B_human failure
+JUDGED 570 002767 B_execution failure
+JUDGED 571 004486 B_reference failure
+JUDGED 572 000846 A_human failure
+JUDGED 573 004745 B_human failure
+JUDGED 574 004608 A_reference failure
+JUDGED 575 003689 A_execution failure
+JUDGED 576 000849 B_execution failure
+JUDGED 577 005567 A_human failure
+JUDGED 578 003262 B_reference success
+JUDGED 579 005324 A_reference failure
+JUDGED 580 004174 A_human failure
+JUDGED 581 003994 B_human success
+JUDGED 582 004017 A_execution failure
+JUDGED 583 004010 B_execution failure
+JUDGED 584 003667 B_reference failure
+JUDGED 585 002943 B_human failure
+JUDGED 586 004305 A_execution failure
+JUDGED 587 005717 B_human failure
+JUDGED 588 005543 A_human failure
+JUDGED 589 000620 A_reference failure
+JUDGED 590 002663 A_execution failure
+JUDGED 591 004808 B_execution failure
+JUDGED 592 005324 B_execution failure
+JUDGED 593 004017 A_human failure
+JUDGED 594 002370 B_reference success
+JUDGED 595 004398 B_reference success
+JUDGED 596 002943 B_reference failure
+JUDGED 597 000849 A_execution failure
+JUDGED 598 001572 B_reference success
+JUDGED 599 001579 A_reference success
+JUDGED 600 001396 B_reference success
+{
+  "cases": 100,
+  "judgments": 600,
+  "groups": {
+    "A_human": {
+      "success": 32,
+      "failure": 68
+    },
+    "B_human": {
+      "failure": 70,
+      "success": 29,
+      "uncertain": 1
+    },
+    "A_reference": {
+      "success": 33,
+      "failure": 66,
+      "uncertain": 1
+    },
+    "B_reference": {
+      "failure": 72,
+      "success": 27,
+      "uncertain": 1
+    },
+    "A_execution": {
+      "success": 27,
+      "failure": 73
+    },
+    "B_execution": {
+      "success": 24,
+      "failure": 75,
+      "uncertain": 1
+    }
+  },
+  "paired": {
+    "human": {
+      "n": 100,
+      "A_only_success": 12,
+      "B_only_success": 9,
+      "both_success": 20,
+      "neither_success": 59,
+      "B_minus_A_percentage_points": -3.0,
+      "paired_bootstrap_95_percent_interval": [
+        -12.0,
+        6.0
+      ],
+      "exact_paired_binary_p": 0.6636238098144531,
+      "unresolved_pairs": 1
+    },
+    "reference": {
+      "n": 100,
+      "A_only_success": 12,
+      "B_only_success": 6,
+      "both_success": 21,
+      "neither_success": 61,
+      "B_minus_A_percentage_points": -6.0,
+      "paired_bootstrap_95_percent_interval": [
+        -14.000000000000002,
+        2.0
+      ],
+      "exact_paired_binary_p": 0.237884521484375,
+      "unresolved_pairs": 2
+    },
+    "execution": {
+      "n": 100,
+      "A_only_success": 9,
+      "B_only_success": 6,
+      "both_success": 18,
+      "neither_success": 67,
+      "B_minus_A_percentage_points": -3.0,
+      "paired_bootstrap_95_percent_interval": [
+        -11.0,
+        5.0
+      ],
+      "exact_paired_binary_p": 0.60723876953125,
+      "unresolved_pairs": 1
+    }
+  },
+  "transitions": {
+    "A_human_to_reference": {
+      "failure -> failure": 56,
+      "failure -> success": 12,
+      "success -> failure": 10,
+      "success -> success": 21,
+      "success -> uncertain": 1
+    },
+    "A_reference_to_execution": {
+      "failure -> failure": 60,
+      "success -> failure": 13,
+      "success -> success": 20,
+      "failure -> success": 6,
+      "uncertain -> success": 1
+    },
+    "B_human_to_reference": {
+      "failure -> failure": 62,
+      "success -> success": 19,
+      "success -> failure": 10,
+      "failure -> uncertain": 1,
+      "failure -> success": 7,
+      "uncertain -> success": 1
+    },
+    "B_reference_to_execution": {
+      "failure -> failure": 62,
+      "success -> failure": 12,
+      "uncertain -> failure": 1,
+      "failure -> success": 9,
+      "success -> success": 15,
+      "failure -> uncertain": 1
+    }
+  },
+  "response_models": [
+    "gpt-6-luna"
+  ],
+  "technical_errors": 0,
+  "note": "Success versus all other outcomes on the fixed cohort; uncertainty and errors also reported separately. Exploratory intervals are not adjusted for three stage comparisons."
+}
+---------------------------------------
+Begin Slurm Epilog: Nov-24-2026 20:39:37
+Job ID:        7298986
+User ID:       szhang957
+Account:       coc
+Job name:      vm-full100-judge
+Resources:     cpu=4,mem=8G,node=1
+Rsrc Used:     cput=01:00:04,vmem=0,walltime=00:15:01,mem=621612K,energy_used=0
+Partition:     ice-cpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-003-19-2
+---------------------------------------

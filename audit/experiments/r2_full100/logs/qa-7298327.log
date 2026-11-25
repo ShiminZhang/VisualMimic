@@ -1,0 +1,22 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-24-2026 20:21:03
+Job ID:    7298327
+User ID:   szhang957
+Account:   coc
+Job name:  vm-full100-video-check
+Partition: ice-cpu
+QOS:       coc-ice
+---------------------------------------
+VERIFIED 700 videos; contact sheets ready
+---------------------------------------
+Begin Slurm Epilog: Nov-24-2026 20:22:37
+Job ID:        7298327
+User ID:       szhang957
+Account:       coc
+Job name:      vm-full100-video-check
+Resources:     cpu=2,mem=4G,node=1
+Rsrc Used:     cput=00:03:08,vmem=0,walltime=00:01:34,mem=293592K,energy_used=0
+Partition:     ice-cpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-003-19-2
+---------------------------------------

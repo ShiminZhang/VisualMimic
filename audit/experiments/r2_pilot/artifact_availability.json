@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-11-25T00:15:01.716974+00:00",
+  "root": "/storage/ice1/3/5/szhang957/Repos/VisualMimic-20261025",
+  "cases_checked": 100,
+  "unique_files_hash_verified": 1300,
+  "counts": {
+    "source_video": 100,
+    "A_result": 100,
+    "A_retarget_report": 100,
+    "A_edited_human": 100,
+    "A_G1_reference": 100,
+    "A_trajectory": 100,
+    "A_execution_video": 100,
+    "B_result": 100,
+    "B_retarget_report": 100,
+    "B_edited_human": 100,
+    "B_G1_reference": 100,
+    "B_trajectory": 100,
+    "B_execution_video": 100
+  },
+  "issues": [],
+  "method": "All cited file bytes were read and SHA-256 compared with the saved artifact reference in the existing cohort and execution records."
+}

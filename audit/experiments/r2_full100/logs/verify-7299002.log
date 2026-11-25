@@ -1,0 +1,33 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-24-2026 20:39:46
+Job ID:    7299002
+User ID:   szhang957
+Account:   coc
+Job name:  vm-full100-verify
+Partition: ice-cpu
+QOS:       coc-ice
+---------------------------------------
+{
+  "requests_verified": 600,
+  "responses_verified": 600,
+  "fixed_denominators_verified": true,
+  "paired_counts_verified": true,
+  "script_matches_frozen_protocol": true,
+  "report_sha256": "d8d2dee5af94212d1262fc13aa7ace6e0a88263d31c43d49bce6e10c4e53d3a3",
+  "results_sha256": "0bc465d21f6fc227b0f4483e56cf78c049bdc7049557f68cda259df9448e0e9f",
+  "retained_pilot_files_unchanged": 726,
+  "new_judgments": 480,
+  "retained_judgments": 120
+}
+---------------------------------------
+Begin Slurm Epilog: Nov-24-2026 20:40:21
+Job ID:        7299002
+User ID:       szhang957
+Account:       coc
+Job name:      vm-full100-verify
+Resources:     cpu=1,mem=2G,node=1
+Rsrc Used:     cput=00:00:35,vmem=0,walltime=00:00:35,mem=800632K,energy_used=0
+Partition:     ice-cpu
+QOS:           coc-ice
+Nodes:         atl1-1-03-003-16-1
+---------------------------------------

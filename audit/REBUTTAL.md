@@ -53,3 +53,7 @@ The exporter verifies the two source-report hashes recorded in [RESOURCES.md](RE
 ## Remaining limits
 
 The export preserves the exact returned verdict text. Full API envelopes, account metadata, encrypted reasoning, videos, and licensed/model assets are not redistributed. Full HTTP image payloads were not archived, so request hashes were checked for agreement between saved records, not reconstructed from the original request bytes. These checks establish recorded provenance and accounting. They do not independently establish visual-judge accuracy, causal failure attribution, or full-test-set performance. Research findings 3 and 4 remain separate work.
+
+## Additional experiment records
+
+[The experiment evidence index](experiments/README.md) adds the original technical source records, selected response records, verification logs, and the R2 pilot and full 100-case stage comparisons. The historical C2–C4 results above remain unchanged. R2 adds new controlled-view judgments and is reported separately. The package can be checked offline with `python3 audit/experiments/verify.py`.

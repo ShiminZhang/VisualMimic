@@ -1,0 +1,32 @@
+{
+  "C2_matched_pairs": 307,
+  "C2_unique_settings": 1,
+  "C3_verified_links": 100,
+  "C4_judgments": 400,
+  "verdicts": {
+    "pre_GMR": {
+      "success": 35,
+      "failure": 65,
+      "uncertain": 0,
+      "technical_error": 0
+    },
+    "C": {
+      "success": 27,
+      "failure": 73,
+      "uncertain": 0,
+      "technical_error": 0
+    },
+    "A": {
+      "success": 24,
+      "failure": 76,
+      "uncertain": 0,
+      "technical_error": 0
+    },
+    "B": {
+      "success": 21,
+      "failure": 79,
+      "uncertain": 0,
+      "technical_error": 0
+    }
+  }
+}

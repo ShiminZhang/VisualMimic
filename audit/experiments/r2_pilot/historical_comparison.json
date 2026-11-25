@@ -1,0 +1,30 @@
+{
+  "matched_labels": 80,
+  "agree": 68,
+  "transitions": {
+    "A_human": {
+      "success -> success": 9,
+      "failure -> failure": 9,
+      "success -> failure": 2
+    },
+    "A_reference": {
+      "success -> success": 6,
+      "failure -> failure": 11,
+      "success -> failure": 1,
+      "failure -> success": 2
+    },
+    "A_execution": {
+      "success -> success": 6,
+      "success -> failure": 2,
+      "failure -> failure": 11,
+      "failure -> success": 1
+    },
+    "B_execution": {
+      "success -> success": 5,
+      "success -> failure": 1,
+      "failure -> failure": 11,
+      "failure -> success": 3
+    }
+  },
+  "note": "Camera settings and judging calls differ; differences cannot be attributed to either factor alone."
+}

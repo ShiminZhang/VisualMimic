@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "package_files_verified": 66,
+  "technical_source_records": 3362,
+  "technical_matched_pairs": 307,
+  "technical_judgments": 400,
+  "r2_pilot_judgments": 120,
+  "r2_full_cohort_judgments": 600,
+  "pilot_judgments_reused_unchanged": 120,
+  "paired_statistics_reproduced": true,
+  "limits": "Public records omit image bytes and API envelopes. Their original hashes were verified on ICE before export; this command verifies exported records and counts, not model accuracy."
+}

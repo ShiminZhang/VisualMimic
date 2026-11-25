@@ -1,0 +1,245 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-24-2026 19:22:02
+Job ID:    7297384
+User ID:   szhang957
+Account:   coc
+Job name:  vm-stage-judge
+Partition: ice-cpu
+QOS:       coc-ice
+---------------------------------------
+JUDGED 1 004954 A_execution failure
+JUDGED 2 003079 B_execution failure
+JUDGED 3 003994 B_execution success
+JUDGED 4 003994 A_human success
+JUDGED 5 003333 B_reference success
+JUDGED 6 003262 A_human success
+JUDGED 7 004010 A_execution failure
+JUDGED 8 000101 B_human failure
+JUDGED 9 000101 B_execution success
+JUDGED 10 001466 A_reference failure
+JUDGED 11 003244 B_human failure
+JUDGED 12 004409 B_human success
+JUDGED 13 003371 A_reference failure
+JUDGED 14 004603 A_execution failure
+JUDGED 15 001527 B_reference failure
+JUDGED 16 003333 A_execution success
+JUDGED 17 003262 A_reference success
+JUDGED 18 004010 A_reference failure
+JUDGED 19 001968 A_human success
+JUDGED 20 001964 B_human failure
+JUDGED 21 003371 A_human failure
+JUDGED 22 000620 B_human success
+JUDGED 23 001527 B_execution success
+JUDGED 24 004010 B_reference failure
+JUDGED 25 002943 B_human failure
+JUDGED 26 001806 B_execution success
+JUDGED 27 002663 B_human failure
+JUDGED 28 005543 B_human failure
+JUDGED 29 005543 A_human failure
+JUDGED 30 003244 A_execution success
+JUDGED 31 000101 B_reference failure
+JUDGED 32 002663 A_reference failure
+JUDGED 33 002943 A_reference failure
+JUDGED 34 000101 A_human success
+JUDGED 35 004409 A_reference failure
+JUDGED 36 001466 A_human failure
+JUDGED 37 004954 A_human success
+JUDGED 38 003079 B_reference failure
+JUDGED 39 001466 A_execution failure
+JUDGED 40 002943 A_execution failure
+JUDGED 41 005543 A_execution failure
+JUDGED 42 004954 A_reference success
+JUDGED 43 004603 B_execution success
+JUDGED 44 003079 A_execution failure
+JUDGED 45 005543 B_execution failure
+JUDGED 46 003079 A_human failure
+JUDGED 47 001466 B_execution failure
+JUDGED 48 003244 B_execution failure
+JUDGED 49 003244 B_reference failure
+JUDGED 50 004010 A_human failure
+JUDGED 51 004010 B_human success
+JUDGED 52 002663 A_human failure
+JUDGED 53 002663 A_execution failure
+JUDGED 54 004954 B_reference failure
+JUDGED 55 002663 B_execution failure
+JUDGED 56 004409 B_execution failure
+JUDGED 57 001806 A_human success
+JUDGED 58 001964 A_execution failure
+JUDGED 59 004954 B_human success
+JUDGED 60 005543 A_reference failure
+JUDGED 61 003079 A_reference failure
+JUDGED 62 003079 B_human failure
+JUDGED 63 003333 A_human success
+JUDGED 64 001527 B_human failure
+JUDGED 65 003262 A_execution failure
+JUDGED 66 001968 A_reference failure
+JUDGED 67 004603 B_human failure
+JUDGED 68 003333 A_reference success
+JUDGED 69 004409 A_human failure
+JUDGED 70 000101 A_execution success
+JUDGED 71 003244 A_human failure
+JUDGED 72 004409 A_execution failure
+JUDGED 73 005543 B_reference failure
+JUDGED 74 001806 A_execution success
+JUDGED 75 001806 B_reference success
+JUDGED 76 004954 B_execution failure
+JUDGED 77 003333 B_execution success
+JUDGED 78 003994 B_reference failure
+JUDGED 79 000620 A_execution failure
+JUDGED 80 003262 B_human success
+JUDGED 81 003262 B_execution success
+JUDGED 82 004603 A_human failure
+JUDGED 83 001968 A_execution success
+JUDGED 84 003994 B_human success
+JUDGED 85 001968 B_human success
+JUDGED 86 003371 A_execution failure
+JUDGED 87 001806 A_reference success
+JUDGED 88 004409 B_reference failure
+JUDGED 89 000620 B_reference success
+JUDGED 90 002943 B_reference failure
+JUDGED 91 003333 B_human success
+JUDGED 92 001968 B_reference failure
+JUDGED 93 001964 B_reference failure
+JUDGED 94 002663 B_reference failure
+JUDGED 95 001527 A_human success
+JUDGED 96 001466 B_human failure
+JUDGED 97 004603 A_reference failure
+JUDGED 98 001968 B_execution success
+JUDGED 99 000620 A_reference failure
+JUDGED 100 003244 A_reference success
+JUDGED 101 001466 B_reference failure
+JUDGED 102 001806 B_human success
+JUDGED 103 003371 B_reference failure
+JUDGED 104 001964 A_human failure
+JUDGED 105 000620 A_human success
+JUDGED 106 001964 A_reference failure
+JUDGED 107 003371 B_human failure
+JUDGED 108 000101 A_reference success
+JUDGED 109 001964 B_execution failure
+JUDGED 110 001527 A_reference success
+JUDGED 111 004010 B_execution failure
+JUDGED 112 000620 B_execution failure
+JUDGED 113 003994 A_execution success
+JUDGED 114 003371 B_execution failure
+JUDGED 115 002943 B_execution failure
+JUDGED 116 004603 B_reference failure
+JUDGED 117 003994 A_reference success
+JUDGED 118 002943 A_human failure
+JUDGED 119 003262 B_reference success
+JUDGED 120 001527 A_execution success
+{
+  "cases": 20,
+  "judgments": 120,
+  "groups": {
+    "A_human": {
+      "success": 9,
+      "failure": 11
+    },
+    "B_human": {
+      "failure": 11,
+      "success": 9
+    },
+    "A_reference": {
+      "success": 8,
+      "failure": 12
+    },
+    "B_reference": {
+      "failure": 16,
+      "success": 4
+    },
+    "A_execution": {
+      "success": 7,
+      "failure": 13
+    },
+    "B_execution": {
+      "success": 8,
+      "failure": 12
+    }
+  },
+  "paired": {
+    "human": {
+      "n": 20,
+      "A_only_success": 2,
+      "B_only_success": 2,
+      "both_success": 7,
+      "neither_success": 9,
+      "B_minus_A_percentage_points": 0.0,
+      "paired_bootstrap_95_percent_interval": [
+        -20.0,
+        20.0
+      ],
+      "exact_paired_binary_p": 1.0,
+      "unresolved_pairs": 0
+    },
+    "reference": {
+      "n": 20,
+      "A_only_success": 5,
+      "B_only_success": 1,
+      "both_success": 3,
+      "neither_success": 11,
+      "B_minus_A_percentage_points": -20.0,
+      "paired_bootstrap_95_percent_interval": [
+        -40.0,
+        0.0
+      ],
+      "exact_paired_binary_p": 0.21875,
+      "unresolved_pairs": 0
+    },
+    "execution": {
+      "n": 20,
+      "A_only_success": 1,
+      "B_only_success": 2,
+      "both_success": 6,
+      "neither_success": 11,
+      "B_minus_A_percentage_points": 5.0,
+      "paired_bootstrap_95_percent_interval": [
+        -10.0,
+        20.0
+      ],
+      "exact_paired_binary_p": 1.0,
+      "unresolved_pairs": 0
+    }
+  },
+  "transitions": {
+    "A_human_to_reference": {
+      "failure -> failure": 10,
+      "success -> success": 7,
+      "success -> failure": 2,
+      "failure -> success": 1
+    },
+    "A_reference_to_execution": {
+      "failure -> failure": 11,
+      "success -> success": 6,
+      "success -> failure": 2,
+      "failure -> success": 1
+    },
+    "B_human_to_reference": {
+      "failure -> failure": 11,
+      "success -> failure": 5,
+      "success -> success": 4
+    },
+    "B_reference_to_execution": {
+      "failure -> failure": 11,
+      "failure -> success": 5,
+      "success -> success": 3,
+      "success -> failure": 1
+    }
+  },
+  "response_models": [
+    "gpt-6-luna"
+  ],
+  "technical_errors": 0,
+  "note": "Success versus all other outcomes on the fixed cohort; uncertainty and errors also reported separately. Exploratory intervals are not adjusted for three stage comparisons."
+}
+---------------------------------------
+Begin Slurm Epilog: Nov-24-2026 19:25:34
+Job ID:        7297384
+User ID:       szhang957
+Account:       coc
+Job name:      vm-stage-judge
+Resources:     cpu=4,mem=8G,node=1
+Rsrc Used:     cput=00:14:08,vmem=0,walltime=00:03:32,mem=358048K,energy_used=0
+Partition:     ice-cpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-004-15-2
+---------------------------------------
